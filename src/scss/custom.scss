@@ -1,0 +1,16 @@
+// Paleta neutra (sin azul) usada en la maqueta del editor de mundos.
+// Se sobrescriben las variables de Bootstrap antes de importarlo.
+
+$body-bg: #1b1c17;
+$body-color: #ebeae1;
+
+$primary: #c79a46;
+$secondary: #96998b;
+$border-color: #3e4038;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
+
+@import "bootstrap/scss/bootstrap";
